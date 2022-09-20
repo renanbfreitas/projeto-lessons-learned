@@ -3,8 +3,7 @@ body {
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0px; 
+  top: 0px;
 }
 
 #titulo {
@@ -41,16 +40,17 @@ body {
   padding: 10px;
   border: 20px;
   font-size: 15px;
-  color: blue;
+  color: green;
   width: 800px;
   height: 10px;
-  font-family: monospace;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #minha_foto {
   margin: 1px;
-  padding: 10px;
-  border: 20px;
+  padding: 1px;
+  border-radius: 100px;
+  background-color: green;
 }
 
 #meuportfolio {
@@ -61,8 +61,8 @@ body {
 
 #rodape {
   margin: 1px;
-  padding: 10px;
-  border: 20px;
+  padding: 1px;
+  border: 2px;
 }
 
 .secao {
