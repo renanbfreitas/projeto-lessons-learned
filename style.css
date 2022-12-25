@@ -1,15 +1,20 @@
 body {
   background-color: rgb(253, 251, 251);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
 }
 
 #titulo {
   text-align: center;
   background-color: green;
   color: white;
+  margin: 0;
+  padding: 10px;
 }
 
 #artigo {
@@ -43,13 +48,13 @@ body {
   color: green;
   width: 800px;
   height: 10px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
 #minha_foto {
   margin: 1px;
   padding: 1px;
-  border-radius: 100px;
+  border-radius: 200px;
   background-color: green;
 }
 
@@ -59,10 +64,29 @@ body {
   border: 20px;
 }
 
+#github {
+  height: 50px;
+  width: 50px;
+}
+
+#linkedinfoto {
+  height: 50px;
+  width: 50px;
+}
+
 #rodape {
-  margin: 1px;
-  padding: 1px;
-  border: 2px;
+  margin: 20px;
+  padding: 0;
+  border: 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+#table {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .secao {
